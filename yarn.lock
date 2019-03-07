@@ -3773,16 +3773,16 @@ ember-basic-dropdown@^1.1.0:
     ember-cli-htmlbars "^3.0.1"
     ember-maybe-in-element "^0.2.0"
 
-ember-bootstrap-power-select@^1.0.0-alpha.1:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/ember-bootstrap-power-select/-/ember-bootstrap-power-select-1.0.0.tgz#dea2f354fbb706aad596f3b47f75d8f0e47c5c31"
-  integrity sha512-6Xxno94iGK7oAuRoPsXX80mrsCRdK/yHQgVyPeEN0OKfzjP6jWxafPjItf9I8rYhpzogvkFZFxhkFFVVfOfo7A==
+ember-bootstrap-power-select@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/ember-bootstrap-power-select/-/ember-bootstrap-power-select-1.1.0.tgz#c3654f4b2691fa91c6efc88136bb440e10d0d564"
+  integrity sha512-mp6jSxj/1ohzwFQI7T5mxbybxf5QDHIbv5UTpBKQ4X9SlNiGZXRMPuilGXzYl2+kZXdVBVtNdSxkr2hBsguWtg==
   dependencies:
     chalk "^2.0.1"
     ember-cli-babel "^6.16.0"
     ember-cli-build-config-editor "^0.5.0"
     ember-cli-htmlbars "^2.0.2"
-    fs-extra "^6.0.1"
+    fs-extra "^7.0.0"
     rsvp "^4.0.1"
 
 ember-cli-addon-tests@^0.11.0:
