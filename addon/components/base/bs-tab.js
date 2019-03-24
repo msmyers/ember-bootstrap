@@ -95,8 +95,8 @@ import listenTo from 'ember-bootstrap/utils/listen-to-cp';
  ```hbs
  <div>
    {{#bs-nav type="tabs" as |nav|}}
-     {{#nav.item}}{{#nav.link-to "tabs.index"}}Tab 1{{/nav.link-to}}{{/nav.item}}
-     {{#nav.item}}{{#nav.link-to "tabs.other"}}Tab 2{{/nav.link-to}}{{/nav.item}}
+     {{#nav.item linkTo="tabs.index"}}Tab 1{{/nav.item}}
+     {{#nav.item linkTo="tabs.other"}}Tab 2{{/nav.item}}
    {{/bs-nav}}
    {{outlet}}
  </div>

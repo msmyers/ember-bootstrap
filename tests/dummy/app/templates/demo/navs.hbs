@@ -10,8 +10,8 @@
   <hr>
   <!-- BEGIN-SNIPPET nav-demo -->
   {{#bs-nav type=type justified=justified stacked=stacked fill=fill as |nav|}}
-    {{#nav.item}}{{#nav.link-to "index"}}Home{{/nav.link-to}}{{/nav.item}}
-    {{#nav.item}}{{#nav.link-to "demo.navs"}}Navs{{/nav.link-to}}{{/nav.item}}
+    {{#nav.item linkTo="index"}}Home{{/nav.item}}
+    {{#nav.item linkTo="demo.navs"}}Navs{{/nav.item}}
     {{#nav.dropdown as |dd|}}
       {{#dd.toggle}}Dropdown <span class="caret"></span>{{/dd.toggle}}
       {{#dd.menu as |ddm|}}
