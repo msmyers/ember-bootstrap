@@ -17,7 +17,7 @@ import layout from 'ember-bootstrap/templates/components/bs-nav';
 
  ```hbs
  {{#bs-nav type="pills" as |nav|}}
-   {{#nav.item linkTo="foo"}}Foo
+   {{#nav.item linkTo="foo"}}
      Foo
    {{/nav.item}}
    {{#nav.item linkTo=(array "bar" model)}}
