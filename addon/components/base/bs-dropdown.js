@@ -189,7 +189,6 @@ export default Component.extend({
    * @default false
    * @private
    */
-  inNav: false,
 
   /**
    * A computed property to generate the suiting class for the dropdown container, either "dropdown", "dropup" or "btn-group".
