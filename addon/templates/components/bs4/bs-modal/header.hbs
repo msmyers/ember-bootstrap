@@ -1,8 +1,8 @@
 {{#if hasBlock}}
   {{yield}}
 {{else}}
-  {{#component titleComponent}}{{title}}{{/component}}
+  {{#component this.titleComponent}}{{@title}}{{/component}}
 {{/if}}
-{{#if closeButton}}
-  {{component closeComponent onClick=(action onClose)}}
+{{#if this.closeButton}}
+  {{component this.closeComponent onClick=@onClose}}
 {{/if}}

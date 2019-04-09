@@ -88,7 +88,6 @@ export default Modal.extend({
    * @type string
    * @public
    */
-  title: null,
 
   /**
    * Display a close button (x icon) in the corner of the modal header.
@@ -128,6 +127,5 @@ export default Modal.extend({
    * @default null
    * @public
    */
-  submitTitle: null
 
 });

@@ -32,7 +32,6 @@ export default Component.extend({
    * @default null
    * @public
    */
-  title: null,
 
   /**
    * @property titleComponent
@@ -52,6 +51,5 @@ export default Component.extend({
    * @event onClose
    * @public
    */
-  onClose() {}
 
 });
