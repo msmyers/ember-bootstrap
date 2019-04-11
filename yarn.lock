@@ -3851,10 +3851,10 @@ electron-to-chromium@^1.3.103, electron-to-chromium@^1.3.47:
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.113.tgz#b1ccf619df7295aea17bc6951dc689632629e4a9"
   integrity sha512-De+lPAxEcpxvqPTyZAXELNpRZXABRxf+uL/rSykstQhzj/B0l1150G/ExIIxKc16lI89Hgz81J0BHAcbTqK49g==
 
-ember-angle-bracket-invocation-polyfill@^1.2.5:
-  version "1.2.5"
-  resolved "https://registry.yarnpkg.com/ember-angle-bracket-invocation-polyfill/-/ember-angle-bracket-invocation-polyfill-1.2.5.tgz#25b9c1f8dc137cb7e7dd478cc517e40971931c55"
-  integrity sha512-fGU8iBwduCmr7TfWpA0VlAhfJJKGVXPyAwxKizRn4/DIEDkS20TWox3XD+B8DCup9VKGiP0UMaXU9NK23xPQMg==
+ember-angle-bracket-invocation-polyfill@^1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/ember-angle-bracket-invocation-polyfill/-/ember-angle-bracket-invocation-polyfill-1.3.0.tgz#2702f7102dd389f684830fbb5504ebec37febaf7"
+  integrity sha512-KD43MYtxZ0UPpT340CjassDV9SnHpiACKNy8ZXUvj1pDXY+PJgmLmrFTTON9GUQhDNwUQLfRpeSR0+k7X90lMw==
   dependencies:
     ember-cli-babel "^6.17.0"
     ember-cli-version-checker "^2.1.2"
@@ -4500,6 +4500,14 @@ ember-in-element-polyfill@^0.1.2:
     ember-cli-babel "^6.6.0"
     ember-cli-version-checker "^2.1.0"
     ember-wormhole "^0.5.4"
+
+ember-let-polyfill@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/ember-let-polyfill/-/ember-let-polyfill-0.1.0.tgz#9d37c610441eb41eaaea3a6782bbd4203f5cf0a9"
+  integrity sha512-olLHpS7JnqZcfyYRXcdLATYwDIopKA+ZzI8xswzCIcBYoRgoUJY7E/eW84Unu8ea1jtr/Unx+dQrsU+NrNSoBg==
+  dependencies:
+    ember-cli-babel "^6.16.0"
+    ember-cli-version-checker "^2.1.2"
 
 ember-load-initializers@^2.0.0:
   version "2.0.0"
