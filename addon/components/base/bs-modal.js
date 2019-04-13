@@ -373,7 +373,8 @@ let component = Component.extend(TransitionSupport, {
   actions: {
     close() {
       if (this.get('onHide')() !== false) {
-        this.set('isOpen', false);
+        // this.set('open', false);
+        this.hide();
       }
     },
     submit() {
